@@ -1,0 +1,19 @@
+# see what is connected were
+sh cdp neighbors
+
+# more detail
+sh cdp neighbors detail
+
+# disable it
+no cdp enable
+
+# give descriptions
+# switch 22
+int gi3/3
+ description "To Switch21"
+ exit
+
+# switch 23
+ int gi3/3
+ description "To Switch21"
+ exit
